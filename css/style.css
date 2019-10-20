@@ -145,36 +145,24 @@ body {
 /* SERVIÇOS */
 
 .containerServicos {
-    border: 2px solid #252525;
-    position: relative;
     background-color: #252525;
     padding-right: 50px;
     padding-left: 50px;
-    font-family: Arial, Times New Roman;
     z-index: -1;
     height: 650px;
 }
 
-.imagem {
-    position: relative;
-    float: left;
-}
-
 .texto {
-    position: relative;
     width: 32%;
-    float: left;
+    font-family: Arial, Times New Roman;
+    color: #ffffff;
 }
 
 .servico {
     margin-top: 15px;
-    z-index: 0;
-    position: relative;
-    color: #ffffff;
     width: 100%;
     font-size: 14pt;
     display: flex;
-    flex-direction: row;
     justify-content: center;
     align-items: center;
 }
